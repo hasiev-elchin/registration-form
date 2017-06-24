@@ -88,14 +88,18 @@ body {
 }
 
 .check-in__input--name {
+	float: left;
     width: 48%;
-    float: left;
     margin-right: 4%;
 }
 
 .check-in__input--surname {
+	float: right;
     width: 48%;
-    float: right;
+}
+
+.check-in__input--email {
+	clear: both;
 }
 
 .btn {
